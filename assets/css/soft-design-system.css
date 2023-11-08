@@ -54,8 +54,8 @@
   --bs-dark: #344767;
   --bs-white: #fff;
   --bs-primary-rgb: 203, 12, 159;
-  --bs-secondary-rgb: 131, 146, 171;
-  --bs-success-rgb: 130, 214, 22;
+  --bs-secondary-rgb: 40, 223, 153;
+  --bs-success-rgb: 40, 223, 153;
   --bs-info-rgb: 23, 193, 232;
   --bs-warning-rgb: 251, 207, 51;
   --bs-danger-rgb: 234, 6, 6;
@@ -3880,7 +3880,7 @@ fieldset:disabled .btn {
   --bs-btn-hover-color: #000;
   --bs-btn-hover-bg: #8392AB;
   --bs-btn-hover-border-color: #8392AB;
-  --bs-btn-focus-shadow-rgb: 131, 146, 171;
+  --bs-btn-focus-shadow-rgb: 40, 223, 153;
   --bs-btn-active-color: #000;
   --bs-btn-active-bg: #8392AB;
   --bs-btn-active-border-color: #8392AB;
@@ -3897,7 +3897,7 @@ fieldset:disabled .btn {
   --bs-btn-hover-color: #000;
   --bs-btn-hover-bg: #28DF99;
   --bs-btn-hover-border-color: #28DF99;
-  --bs-btn-focus-shadow-rgb: 130, 214, 22;
+  --bs-btn-focus-shadow-rgb: 40, 223, 153;
   --bs-btn-active-color: #000;
   --bs-btn-active-bg: #28DF99;
   --bs-btn-active-border-color: #28DF99;
@@ -8021,12 +8021,12 @@ fieldset:disabled .btn {
 
 .text-bg-secondary {
   color: #000 !important;
-  background-color: RGBA(131, 146, 171, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(40, 223, 153, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-success {
   color: #000 !important;
-  background-color: RGBA(130, 214, 22, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(40, 223, 153, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-info {
@@ -21773,11 +21773,11 @@ label,
 }
 
 .bg-gradient-faded-secondary {
-  background-image: radial-gradient(370px circle at 80% 50%, rgba(131, 146, 171, 0.6) 0, #657796 100%);
+  background-image: radial-gradient(370px circle at 80% 50%, rgba(40, 223, 153, 0.6) 0, #657796 100%);
 }
 
 .bg-gradient-faded-success {
-  background-image: radial-gradient(370px circle at 80% 50%, rgba(130, 214, 22, 0.6) 0, #66a811 100%);
+  background-image: radial-gradient(370px circle at 80% 50%, rgba(40, 223, 153, 0.6) 0, #66a811 100%);
 }
 
 .bg-gradient-faded-info {
@@ -21809,11 +21809,11 @@ label,
 }
 
 .bg-gradient-faded-secondary-vertical {
-  background-image: radial-gradient(200px circle at 50% 70%, rgba(131, 146, 171, 0.3) 0, #8392AB 100%);
+  background-image: radial-gradient(200px circle at 50% 70%, rgba(40, 223, 153, 0.3) 0, #8392AB 100%);
 }
 
 .bg-gradient-faded-success-vertical {
-  background-image: radial-gradient(200px circle at 50% 70%, rgba(130, 214, 22, 0.3) 0, #28DF99 100%);
+  background-image: radial-gradient(200px circle at 50% 70%, rgba(40, 223, 153, 0.3) 0, #28DF99 100%);
 }
 
 .bg-gradient-faded-info-vertical {
