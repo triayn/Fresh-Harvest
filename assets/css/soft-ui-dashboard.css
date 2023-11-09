@@ -30,8 +30,8 @@
   --bs-red: #F56565;
   --bs-orange: #fd7e14;
   --bs-yellow: #FBD38D;
-  --bs-green: #81E6D9;
-  --bs-teal: #20c997;
+  --bs-green: #28DF99;
+  --bs-teal: #28DF99;
   --bs-cyan: #0dcaf0;
   --bs-white: #fff;
   --bs-gray: #6c757d;
@@ -2772,9 +2772,9 @@ progress {
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #e293d3;
+  border-color: #28DF99;
   outline: 0;
-  box-shadow: 0 0 0 2px #e9aede;
+  box-shadow: 0 0 0 2px #28DF99;
 }
 
 .form-control::-webkit-date-and-time-value {
