@@ -3,12 +3,6 @@
 @section('content')
 <div class="content-body">
     <div class="container-fluid">
-        <!-- <div class="page-titles">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="javascript:void(0)">Pengguna</a></li>
-                <li class="breadcrumb-item active"><a href="javascript:void(0)">Admin</a></li>
-            </ol>
-        </div> -->
         <div class="row">
             <div class="col-12">
                 <div class="card">

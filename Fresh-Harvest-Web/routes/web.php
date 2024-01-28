@@ -21,5 +21,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'dashboard']);
 
-Route::get('/pengguna', [UserController::class, 'index']);
-Route::get('/create', [UserController::class, 'create']);
+Route::get('/pengguna', [UserController::class, 'index'])->name('pengguna.index');
+Route::get('/create', [UserController::class, 'create'])->name('pengguna.create');
+ROute::post('/store', [UserController::class, 'store'])->name('pengguna.store');
