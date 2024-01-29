@@ -23,4 +23,5 @@ Route::get('/', [HomeController::class, 'dashboard']);
 
 Route::get('/pengguna', [UserController::class, 'index'])->name('pengguna.index');
 Route::get('/create', [UserController::class, 'create'])->name('pengguna.create');
-ROute::post('/store', [UserController::class, 'store'])->name('pengguna.store');
+Route::post('/store', [UserController::class, 'store'])->name('pengguna.store');
+Route::get('/show/{id}', [UserController::class, 'show'])->name('pengguna.show');

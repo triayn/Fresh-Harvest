@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\User;
+use Illuminate\Contracts\View\View;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
@@ -51,5 +52,12 @@ class UserController extends Controller
         ]);
 
         return redirect()->route('pengguna.index')->with(['success', "Data Berhasil Ditambahkan"]);
+    }
+
+    public function show(string $id): View
+    {
+        $data = User::findOrFail($id);
+        
+        return view('user.show', compact('data'));
     }
 }
