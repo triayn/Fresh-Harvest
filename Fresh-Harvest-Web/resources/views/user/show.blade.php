@@ -10,7 +10,7 @@
                     <div class="col-xl-12">
                         <div class="card profile-card">
                             <div class="card-header flex-wrap border-0 pb-0">
-                                <h3 class="fs-24 text-black font-w600 me-auto mb-2 pe-3">Detail Profil</h3>
+                                <h3 class="fs-24 text-black font-w600 me-auto mb-2 pe-3">Detail</h3>
                             </div>
                             <div class="card-body">
                                 <div class="mb-5">
@@ -18,25 +18,25 @@
                                         <div class="col-xl-12 col-sm-6">
                                             <div class="form-group">
                                                 <label>Alamat</label>
-                                                <input type="text" class="form-control" value="{{ $data->alamat }}">
+                                                <input type="text" class="form-control" value="{{ $data->alamat }}" readonly>
                                             </div>
                                         </div>
                                         <div class="col-xl-12 col-sm-6">
                                             <div class="form-group">
                                                 <label>Jenis Kelamin</label>
-                                                <input type="text" class="form-control" value="{{ $data->jenis_kelamin }}">
+                                                <input type="text" class="form-control" value="{{ $data->jenis_kelamin }}" readonly>
                                             </div>
                                         </div>
                                         <div class="col-xl-12 col-sm-6">
                                             <div class="form-group">
                                                 <label>Tempat Lahir</label>
-                                                <input type="text" class="form-control" value="{{ $data->tempat_lahir }}">
+                                                <input type="text" class="form-control" value="{{ $data->tempat_lahir }}" readonly>
                                             </div>
                                         </div>
                                         <div class="col-xl-12 col-sm-6">
                                             <div class="form-group">
                                                 <label>Tanggal Lahir</label>
-                                                <input type="text" class="form-control" value="{{ $data->tanggal_lahir }}">
+                                                <input type="text" class="form-control" value="{{ $data->tanggal_lahir }}" readonly>
                                             </div>
                                         </div>
                                     </div>

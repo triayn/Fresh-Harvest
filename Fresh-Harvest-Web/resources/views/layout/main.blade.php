@@ -782,11 +782,10 @@
 
     <script src="{{ asset('jobie/js/custom.min.js')}}"></script>
     <script src="{{ asset('jobie/js/deznav-init.js')}}"></script>
+    @yield('script')
 
-
-    <script>
+    <!-- <script>
         function carouselReview() {
-            /*  testimonial one function by = owl.carousel.js */
             function checkDirection() {
                 var htmlClassName = document.getElementsByTagName('html')[0].getAttribute('class');
                 if (htmlClassName == 'rtl') {
@@ -858,7 +857,8 @@
                 carouselReview();
             }, 1000);
         });
-    </script>
+    </script> -->
+    
 </body>
 
 </html>

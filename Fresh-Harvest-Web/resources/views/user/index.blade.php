@@ -11,7 +11,7 @@
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">
-                            <table id="example3" class="display table-responsive-lg">
+                            <table class="display table-responsive-md dataTable" id="dataUser">
                                 <thead>
                                     <tr>
                                         <th>No</th>
@@ -23,14 +23,14 @@
                                     @php $i = 1; @endphp
                                     @foreach ($data as $d)
                                     <tr>
-                                        <td>{{ $i++ }}</td>
+                                        <td class="text-center">{{ $i++ }}</td>
                                         <td>{{ $d->nama }}</td>
                                         <td>{{ $d->email }}</td>
                                         <td>{{ $d->alamat }}</td>
                                         <td>
                                             <div class="d-flex">
                                                 <a href="{{ route('pengguna.show', $d->id) }}" class="btn btn-success shadow btn-xs sharp me-1"><i class="fa fa-eye"></i></a>
-                                                <a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
+                                                <a href="{{ route('pengguna.edit', $d->id) }}" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
                                                 <a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
                                             </div>
                                         </td>
@@ -49,7 +49,13 @@
 </div>
 @endsection
 
-
+@section('script')
+    <script>
+        $(document).ready(function() {
+            $('#dataUser').DataTable({})
+        })
+    </script>
+@endsection
 
 <!-- <!DOCTYPE html>
 <html lang="en">
